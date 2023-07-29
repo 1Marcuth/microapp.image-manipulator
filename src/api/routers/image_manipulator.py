@@ -129,7 +129,7 @@ def rotate_image_handler(
     )
 
     return Response(
-        content=file_content,
-        status_code=201,
-        media_type=f"image/{input}",
+        content = file_content,
+        status_code = 201,
+        media_type = f"image/{input}",
     )
